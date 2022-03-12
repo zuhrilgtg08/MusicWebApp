@@ -249,7 +249,7 @@ for (let i = 0; i < allMusic.length; i++) {
 }
 
 function playingSong() {
-    const allLiTag = ulTag.querySelector("li");
+    const allLiTag = ulTag.querySelectorAll("li");
 
     for (let j = 0; j < allLiTag.length; j++) {
         let audioTag = allLiTag[j].querySelector(".audio-duration");
@@ -262,7 +262,7 @@ function playingSong() {
 
         if (allLiTag[j].getAttribute("li-index") == musicIndex) {
             allLiTag[j].classList.add("playing");
-            audioTag.innerText = "playing";
+            audioTag.innerText = "Playing";
         }
 
         allLiTag[j].setAttribute("onclick", "clicked(this)");

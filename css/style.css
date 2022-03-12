@@ -285,7 +285,7 @@ ul li .audio-duration {
     font-size: 16px;
 }
 
-ul li .playing {
+ul li.playing {
     pointer-events: none;
     color: var(--hitam);
 }
