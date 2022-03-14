@@ -38,6 +38,13 @@ let allMusic = [{
         artist: "Yoasobi",
         img: "music6",
         src: "music6"
+    },
+
+    {
+        name: "No Game No Life - Ai Kayano",
+        artist: "Ai Kayano",
+        img: "music7",
+        src: "music7"
     }
 ];
 
