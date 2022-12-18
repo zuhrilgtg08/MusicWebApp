@@ -1,51 +1,45 @@
-let allMusic = [{
-        name: "Gyutto - Mosawo",
-        artist: "Harutya",
-        img: "music1",
-        src: "music1"
-    },
+let allMusic = [
+  {
+    name: "Without Me",
+    artist: "Halsey",
+    img: "music1",
+    src: "music1",
+  },
 
-    {
-        name: "Akuma No Ko - Attack on Titan",
-        artist: "Ai Higuchi",
-        img: "music2",
-        src: "music2"
-    },
+  {
+    name: "I Like You So Much You’ll Know It",
+    artist: "Ysabelle Cuevas",
+    img: "music2",
+    src: "music2",
+  },
 
-    {
-        name: "Belive In You - Re: Zero Kara Hajimeru Isekai Seikatsu",
-        artist: "Nonoc",
-        img: "music3",
-        src: "music3"
-    },
+  {
+    name: "Love Story",
+    artist: "Taylor Swift",
+    img: "music3",
+    src: "music3",
+  },
 
-    {
-        name: "Neko - Dish",
-        artist: "Harutya",
-        img: "music4",
-        src: "music4"
-    },
+  {
+    name: "Hold On",
+    artist: "Justin Bieber",
+    img: "music4",
+    src: "music4",
+  },
 
-    {
-        name: "Tabun - Yoasobi",
-        artist: "Yoasobi",
-        img: "music5",
-        src: "music5"
-    },
+  {
+    name: "Hurts So Good",
+    artist: "Astrid S",
+    img: "music5",
+    src: "music5",
+  },
 
-    {
-        name: "Mimpi Itu - Yoasobi",
-        artist: "Yoasobi",
-        img: "music6",
-        src: "music6"
-    },
-
-    {
-        name: "No Game No Life - Ai Kayano",
-        artist: "Ai Kayano",
-        img: "music7",
-        src: "music7"
-    }
+  {
+    name: "Tie Me Down",
+    artist: "Gryffin Elley Duhé",
+    img: "music6",
+    src: "music6",
+  },
 ];
 
 const wrapper = document.querySelector(".wrapper"),
